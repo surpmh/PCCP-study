@@ -15,7 +15,7 @@ def solution(answers):
             scores[2] += 1
     
     for i in range(3):
-        if scores[i] ==  max(scores):
+        if scores[i] == max(scores):
             answer.append(i+1)
     
     return answer
