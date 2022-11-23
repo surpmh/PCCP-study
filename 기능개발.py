@@ -13,7 +13,6 @@ def solution(progresses, speeds):
     count = 1
 
     while q:
-        print(q, d)
         if q[0] <= d:
             count += 1
             q.popleft()
