@@ -7,8 +7,6 @@ def solution(n, lost, reserve):
 
     lost = sorted(lost)
     reserve = sorted(reserve)
-
-    print(lost, reserve)
     
     for i in range(1, n+1):
         if i in lost:
